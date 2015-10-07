@@ -1,6 +1,13 @@
 Rails.application.routes.draw do
 
   get '/' => 'site#homepage'
+
+  get '/about' => 'site#about'
+
+  get '/curriculum' => 'site#curriculum'
+
+  get '/contact-us' => 'site#contact'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
