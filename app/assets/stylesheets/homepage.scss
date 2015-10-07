@@ -4,9 +4,16 @@
 		background-image: url("https://wallpaperscraft.com/image/kittens_three_kids_muzzle_black_56532_3840x2400.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 	}
 
 	.color-overlay {
-		
+		height: 600px;
+		background-color: green;
+		opacity: 0.5;
+		position: absolute;
+    top: 50px;
+    left: 0;
 	}
 }
